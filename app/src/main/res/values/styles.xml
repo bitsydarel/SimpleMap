@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorSecondaryLight</item>
+        <item name="colorSwitchThumbNormal">@color/colorPrimaryLight</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryTextColor</item>
+        <item name="android:textColorHighlight">@color/colorSecondaryLight</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryTextColor</item>
+        <!-- **************** Window Style **************** -->
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>
