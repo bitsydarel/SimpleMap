@@ -14,7 +14,7 @@ import dagger.android.support.DaggerApplication
 interface ApplicationComponent : AndroidInjector<DaggerApplication> {
     @dagger.Component.Builder
     abstract class Builder : AndroidInjector.Builder<DaggerApplication>() {
-        /* These two methods are neccessary for DaggerMock when running instrumentationstests */
+        /* this method is neccessary for DaggerMock when running instrumentations tests */
         abstract fun dataModule(dataModule: DataModule): Builder
     }
 }
